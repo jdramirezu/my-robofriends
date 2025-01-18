@@ -21,6 +21,8 @@ const App = () =>{
     const filteredRobots = robots.filter(robot =>{
         return robot.name.toLowerCase().includes(searchfield.toLowerCase());
     });
+
+    console.log("HOOKS!!!");
     
     return !robots.length ?
         <h1 className='tc'>Loading</h1> :
