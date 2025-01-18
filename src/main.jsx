@@ -4,7 +4,7 @@ import './index.css'
 import App from './containers/App.jsx'
 import 'tachyons'
 
-//hi
+//hello
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
